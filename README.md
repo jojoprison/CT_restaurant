@@ -16,7 +16,7 @@
 http://127.0.0.1:8000/api/v1/foods/
 
 > Проект возвращает список, содержащий категории еды. Также можно запросить еду по конкретной категории, 
-> перейдя по ссылке вида: http://127.0.0.1:8000/api/v1/foods/<pk>/
+> перейдя по ссылке вида: http://127.0.0.1:8000/api/v1/foods/$pk$/
 
 ## en
 Locate `.env` environment file and `db.sqlite3` database file *(if available)* in the root directory of the project.
@@ -35,4 +35,4 @@ Locate `.env` environment file and `db.sqlite3` database file *(if available)* i
 http://127.0.0.1:8000/api/v1/foods/
 
 > The project returns a list containing categories of food. It is also possible to query food by 
-> a specific category following URL like: http://127.0.0.1:8000/api/v1/foods/<pk>/
+> a specific category following URL like: http://127.0.0.1:8000/api/v1/foods/$pk$/
